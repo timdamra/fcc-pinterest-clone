@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://tim:hatim123@ds125335.mlab.com:25335/pinterest');
+mongoose.connect(process.env.MONGO_URI);
 
 const connection = mongoose.connection;
 connection.once('open', () => {
