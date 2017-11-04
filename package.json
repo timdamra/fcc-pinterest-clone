@@ -1,0 +1,25 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon --exec mocha -R min",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.1",
+    "morgan": "^1.9.0",
+    "validator": "^9.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
